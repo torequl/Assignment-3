@@ -32,7 +32,7 @@
             manrope: 'Manrope',
           },
           backgroundImage: {
-            'vector': "url('./assets/Vector.png')",
+            'bg': "url('./assets/bg.jpg')",
           }
         }
       }
@@ -97,8 +97,7 @@
       <p class="text-gray-600 w-11/12 lg:w-9/12 mx-auto">The barn house captivates with its blend of rustic charm and
         modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space
         with natural light.</p>
-      <a class="btn bg-secondary rounded-full" href="#">View Details <i
-          class="fa-solid fa-arrow-right bg-primary p-2 rounded-full -rotate-45"></i></a>
+      <a class="btn bg-secondary rounded-full" href="#">View Details <i class="fa-solid fa-arrow-right bg-primary p-2 rounded-full -rotate-45"></i></a>
     </div>
   </header>
 
@@ -183,6 +182,29 @@
       </div>
     </section>
 
+    <section class="bg-bg bg-no-repeat bg-cover py-20">
+      <div class="container px-4 md:px-0 mx-auto w-full md:w-9/12">
+        <div class="space-y-5 text-center mb-7">
+          <p class="px-4 py-2 inline-block bg-secondary shadow text-base font-bold rounded-full"><i
+            class="fa-solid fa-arrow-right"></i> Let’s Connect</p>
+          <h2 class="font-extrabold text-4xl text-text">Let’s Discuss Next Project</h2>
+          <p class="w-full md:w-8/12 mx-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+  
+        <form>
+          <div class="text-center grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
+            <input class="p-5 rounded-full placeholder-gray-400 text-black focus:outline-none" type="text" placeholder="First Name*">
+            <input class="p-5 rounded-full placeholder-gray-400 text-black focus:outline-none" type="text" placeholder="Last Name*">
+            <input class="p-5 rounded-full placeholder-gray-400 text-black focus:outline-none" type="tel" placeholder="Phone Number*">
+            <input class="p-5 rounded-full placeholder-gray-400 text-black focus:outline-none" type="email" placeholder="Email*">
+          </div>
+          <div class="mb-5">
+            <textarea rows="7" class="w-full p-5 rounded-2xl placeholder-gray-400 text-black focus:outline-none" name="" id="" placeholder="Write your message here"></textarea>
+          </div>
+          <button type="submit" class="btn w-full bg-primary font-bold text-xl border-none rounded-full">Send Mail <i class="fa-solid fa-arrow-right bg-black text-white p-1 rounded-full -rotate-45"></i></button>
+        </form>
+      </div>
+    </section>
   </main>
 
   
