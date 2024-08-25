@@ -63,29 +63,32 @@
       </div>
 
       <!-- Nav Button -->
-      <div class="space-x-4 hidden lg:block">
-        <i class="fa-solid fa-magnifying-glass bg-white rounded-full p-4 shadow"></i>
-        <i class="fa-solid fa-cart-shopping bg-white rounded-full p-4 shadow"></i>
-        <a class="btn bg-primary font-bold text-xl rounded-full" href="#">Book Consult <i class="fa-solid fa-arrow-right bg-black text-white p-1 rounded-full -rotate-45"></i></a>
-      </div>
-      <div class="lg:hidden">
-        <label class="btn btn-circle swap swap-rotate">
-          <!-- this hidden checkbox controls the state -->
-          <input type="checkbox" />
-
-          <!-- hamburger icon -->
-          <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-            viewBox="0 0 512 512">
-            <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
-          </svg>
-
-          <!-- close icon -->
-          <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
-            viewBox="0 0 512 512">
-            <polygon
-              points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
-          </svg>
+      <div class="flex float-right gap-4">
+        <div class="space-x-4 hidden sm:block">
+          <i class="fa-solid fa-magnifying-glass bg-white rounded-full p-4 shadow"></i>
+          <i class="fa-solid fa-cart-shopping bg-white rounded-full p-4 shadow"></i>
+          <a class="btn bg-primary font-bold text-xl rounded-full" href="#">Book Consult <i class="fa-solid fa-arrow-right bg-black text-white p-1 rounded-full -rotate-45"></i></a>
+        </div>
+  
+        <div class="lg:hidden">
+          <label class="btn btn-circle swap swap-rotate">
+            <!-- this hidden checkbox controls the state -->
+            <input type="checkbox" />
+  
+            <!-- hamburger icon -->
+            <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 512 512">
+              <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+            </svg>
+  
+            <!-- close icon -->
+            <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+              viewBox="0 0 512 512">
+              <polygon
+                points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+            </svg>
         </label>
+        </div>
       </div>
     </nav>
 
@@ -102,12 +105,12 @@
     <!-- About Us -->
     <section class="bg-[#f4f4f4] px-4">
       <!-- About Us -->
-      <div class="container mx-auto gap-4 flex flex-col md:flex-row relative pt-20">
-        <img class="absolute w-28 top-4 -left-12 hidden md:block" src="./assets/Vector.png" alt="Vector">
+      <div class="container mx-auto gap-4 flex flex-col lg:flex-row relative py-10 lg:py-20">
+        <img class="absolute w-28 top-4 -left-12 hidden lg:block" src="./assets/Vector.png" alt="Vector">
 
         <!-- Text Content -->
         <div class="w-full">
-          <div class="text-center md:text-left space-y-6 mb-6">
+          <div class="text-center lg:text-left space-y-6 mb-6">
             <p class="px-4 py-2 inline-block bg-white shadow text-base font-bold rounded-full"><i class="fa-solid fa-arrow-right"></i> About Us</p>
             <h2 class="font-extrabold text-3xl md:text-5xl text-text">Crafting Spaces that Inspire and Delight</h2>
             <P>We create spaces that are not only functional but also evoke a sense of warmth and inspiration, blending style and comfort to enhance everyday living.</P>
@@ -144,7 +147,7 @@
       </div>
 
       <!-- Our Works Process -->
-      <div class="py-24 container mx-auto">
+      <div class="py-10 lg:py-20 container mx-auto">
         <div class="space-y-5 text-center">
           <p class="px-4 py-2 inline-block bg-white shadow text-base font-bold rounded-full"><i
             class="fa-solid fa-arrow-right"></i> How We Works</p>
@@ -153,7 +156,7 @@
         </div>
 
         <!-- Card Section  -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 mt-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
           <div class="p-6 bg-[#E7C1D3] rounded-xl space-y-2">
             <img src="./assets/concept.png" alt="">
             <h4 class="font-bold text-lg">Concept</h4>
@@ -237,41 +240,41 @@
             <p class="w-full md:w-8/12 mx-auto">Find answers to common questions and get the information you need about our services.</p>
           </div>
           <div class="flex flex-col md:flex-row gap-5">
-            <div class="w-full flex justify-center md:justify-end items-center">
+            <div class="w-full flex justify-center lg:justify-end items-center">
               <img class="w-2/3 rounded-2xl" src="./assets/faq.jpg" alt="">
             </div>
             
             <!-- FAQ container -->
             <div class="w-full flex flex-col justify-center items-start gap-5">
-              <div class="collapse collapse-plus bg-base-200 w-full md:w-10/12">
+              <div class="collapse collapse-plus bg-base-200 w-full lg:w-10/12">
                 <input type="radio" name="my-accordion-3" />
                 <div class="collapse-title text-xl font-medium">What services do you offer?</div>
                 <div class="collapse-content">
                   <p>We specialize in both commercial and residential design, including space planning, renovation, and new construction.</p>
                 </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 w-full md:w-10/12">
+              <div class="collapse collapse-plus bg-base-200 w-full lg:w-10/12">
                 <input type="radio" name="my-accordion-3" />
                 <div class="collapse-title text-xl font-medium">How long does a typical project take?</div>
                 <div class="collapse-content">
                   <p>Project timelines vary based on complexity and scope, but we provide a detailed schedule after the initial consultation.</p>
                 </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 w-full md:w-10/12">
+              <div class="collapse collapse-plus bg-base-200 w-full lg:w-10/12">
                 <input type="radio" name="my-accordion-3" />
                 <div class="collapse-title text-xl font-medium">Do you work with a set budget?</div>
                 <div class="collapse-content">
                   <p>Yes, we tailor our designs to fit within your budget while maximizing value and quality.</p>
                 </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 w-full md:w-10/12">
+              <div class="collapse collapse-plus bg-base-200 w-full lg:w-10/12">
                 <input type="radio" name="my-accordion-3" />
                 <div class="collapse-title text-xl font-medium">Can I make changes during the project?</div>
                 <div class="collapse-content">
                   <p>Absolutely! We encourage collaboration and are happy to accommodate adjustments as needed.</p>
                 </div>
               </div>
-              <div class="collapse collapse-plus bg-base-200 w-full md:w-10/12">
+              <div class="collapse collapse-plus bg-base-200 w-full lg:w-10/12">
                 <input type="radio" name="my-accordion-3" />
                 <div class="collapse-title text-xl font-medium">How do I start a project with you?</div>
                 <div class="collapse-content">
