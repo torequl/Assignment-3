@@ -142,9 +142,34 @@
 
         <!-- Image -->
         <div class="w-full flex justify-center">
-          <img src="./assets/Rectangle.png" alt="">
+          <img class="h-full w-full object-cover rounded-lg" src="./assets/Rectangle.png" alt="">
         </div>
       </div>
+
+
+      <!-- Counter -->
+       <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 p-8 rounded-xl bg-white shadow">
+        <div class="p-6 grid place-items-center gap-2">
+          <img src="./assets/icon/comment-01.png" alt="">
+          <h3 class="font-bold text-3xl">235+</h3>
+          <p class="text-base">Happy Client Review</p>
+        </div>
+        <div class="p-6 grid place-items-center gap-2">
+          <img src="./assets/icon/departement.png" alt="">
+          <h3 class="font-bold text-3xl">50+</h3>
+          <p class="text-base">Work Departments</p>
+        </div>
+        <div class="p-6 grid place-items-center gap-2">
+          <img src="./assets/icon/user-group.png" alt="">
+          <h3 class="font-bold text-3xl">30k+</h3>
+          <p class="text-base">Our Happy Client</p>
+        </div>
+        <div class="p-6 grid place-items-center gap-2">
+          <img src="./assets/icon/user-multiple.png" alt="">
+          <h3 class="font-bold text-3xl">310+</h3>
+          <p class="text-base">Staff Members</p>
+        </div>
+       </div>
 
       <!-- Our Works Process -->
       <div class="py-10 lg:py-20 container mx-auto">
@@ -152,7 +177,7 @@
           <p class="px-4 py-2 inline-block bg-white shadow text-base font-bold rounded-full"><i
             class="fa-solid fa-arrow-right"></i> How We Works</p>
           <h2 class="font-extrabold text-4xl text-text">Our Works Process</h2>
-          <p class="w-full md:w-1/2 mx-auto">Our work process is designed to ensure excellence at every step. From initial consultation to final delivery, we prioritize collaboration, attention to detail, and quality craftsmanship to bring your vision to life.</p>
+          <p class="w-full md:w-8/12 mx-auto">Our work process is designed to ensure excellence at every step. From initial consultation to final delivery, we prioritize collaboration, attention to detail, and quality craftsmanship to bring your vision to life.</p>
         </div>
 
         <!-- Card Section  -->
@@ -183,53 +208,121 @@
     </section>
 
     <!-- Our Latest Portfolio -->
-    <section class="container mx-auto py-10 px-4 md:px-0">
-      <div class="space-y-5 text-center mb-7">
-        <p class="px-4 py-2 inline-block bg-secondary shadow text-base font-bold rounded-full"><i
-        class="fa-solid fa-arrow-right"></i> Explore our Latest works</p>
-        <h2 class="font-extrabold text-4xl text-text">Our Latest Portfolio</h2>
-        <p class="w-full md:w-8/12 mx-auto text-base">Explore our latest works to see how we blend creativity with functionality, delivering stunning, high-quality designs tailored to your needs.</p>
-      </div>
+    <section class="lg:bg-white bg-[#f4f4f4] py-10 lg:py-20 px-4 md:px-0">
+      <div class="container mx-auto">
 
-      <div class="grid grid-cols-12 gap-5">
-        <!-- item -1 -->
-        <div class="border rounded-lg p-5 col-span-12 lg:col-span-8 flex flex-col sm:flex-row gap-5">
-          <img src="./assets/img1.png" alt="">
-          <div class="flex flex-col justify-around">
-            <h3 class="font-bold text-2xl">Commercial</h3>
-            <p class="text-base">Explore our commercial projects that enhance business environments with innovative design, efficiency, and a focus on professional success.</p>
-            <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
+        <div class="space-y-5 text-center mb-7">
+          <p class="px-4 py-2 inline-block bg-secondary shadow text-base font-bold rounded-full"><i
+          class="fa-solid fa-arrow-right"></i> Explore our Latest works</p>
+          <h2 class="font-extrabold text-4xl text-text">Our Latest Portfolio</h2>
+          <p class="w-full md:w-8/12 mx-auto text-base">Explore our latest works to see how we blend creativity with functionality, delivering stunning, high-quality designs tailored to your needs.</p>
+        </div>
+  
+        <div class="grid grid-cols-12 gap-5">
+          <!-- item -1 -->
+          <div class="border rounded-2xl p-5 col-span-12 lg:col-span-8 flex flex-col sm:flex-row gap-5 bg-white">
+            <img src="./assets/img1.png" alt="">
+            <div class="flex flex-col justify-around">
+              <h3 class="font-bold text-2xl">Commercial</h3>
+              <p class="text-base">Explore our commercial projects that enhance business environments with innovative design, efficiency, and a focus on professional success.</p>
+              <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
+            </div>
+          </div>
+          <!-- item -2 -->
+          <div class="border rounded-2xl p-5 col-span-12 sm:col-span-6 lg:col-span-4 bg-white">
+            <img class="h-full w-full object-cover rounded-lg" src="./assets/img2.png" alt="">
+          </div>
+          <!-- item -3 -->
+          <div class="border rounded-2xl p-5 col-span-12 sm:col-span-6 lg:col-span-3 order-5 lg:order-none bg-white">
+            <img class="h-full w-full object-cover rounded-lg" src="./assets/img3.png" alt="">
+          </div>
+  
+          <!-- item -4 hidden -->
+          <div class="border rounded-2xl p-5 col-span-12 sm:col-span-6 lg:hidden block bg-white">
+            <img class="h-full w-full object-cover rounded-lg" src="./assets/img5.png" alt="">
+          </div>
+  
+          <!-- item -5 -->
+          <div class="border rounded-2xl p-5 col-span-12 lg:col-span-6 flex flex-col sm:flex-row gap-5 bg-white">
+            <img src="./assets/img4.png" alt="">
+            <div class="flex flex-col justify-around">
+              <h3 class="font-bold text-2xl">Residential</h3>
+              <p>Discover our residential designs, where comfort meets style in thoughtfully crafted homes that blend modern aesthetics.</p>
+              <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
+            </div>
+          </div>
+          <!-- item -6 -->
+          <div class="border rounded-2xl p-5 col-span-12 sm:col-span-6 lg:col-span-3 order-last bg-white">
+            <img class="h-full w-full object-cover rounded-lg" src="./assets/img5.png" alt="">
           </div>
         </div>
-        <!-- item -2 -->
-        <div class="border rounded-lg p-5 col-span-12 sm:col-span-6 lg:col-span-4">
-          <img class="h-full w-full object-cover rounded-lg" src="./assets/img2.png" alt="">
-        </div>
-        <!-- item -3 -->
-        <div class="border rounded-lg p-5 col-span-12 sm:col-span-6 lg:col-span-3 order-5 lg:order-none">
-          <img class="h-full w-full object-cover rounded-lg" src="./assets/img3.png" alt="">
-        </div>
 
-        <!-- item -4 hidden -->
-        <div class="border rounded-lg p-5 col-span-12 sm:col-span-6 lg:hidden block">
-          <img class="h-full w-full object-cover rounded-lg" src="./assets/img5.png" alt="">
-        </div>
-
-        <!-- item -5 -->
-        <div class="border rounded-lg p-5 col-span-12 lg:col-span-6 flex flex-col sm:flex-row gap-5">
-          <img src="./assets/img4.png" alt="">
-          <div class="flex flex-col justify-around">
-            <h3 class="font-bold text-2xl">Residential</h3>
-            <p>Discover our residential designs, where comfort meets style in thoughtfully crafted homes that blend modern aesthetics.</p>
-            <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
-          </div>
-        </div>
-        <!-- item -6 -->
-        <div class="border rounded-lg p-5 col-span-12 sm:col-span-6 lg:col-span-3 order-last">
-          <img class="h-full w-full object-cover rounded-lg" src="./assets/img5.png" alt="">
-        </div>
       </div>
     </section>
+
+    <!-- Blog -->
+     <section class="container mx-auto py-10 lg:py-20 px-4 md:px-0">
+
+      <div class="space-y-5 text-center">
+        <p class="px-4 py-2 inline-block bg-secondary shadow text-base font-bold rounded-full"><i
+          class="fa-solid fa-arrow-right"></i> Rinterio News</p>
+        <h2 class="font-extrabold text-4xl text-text">Read Our Articles and News</h2>
+        <p class="w-full md:w-8/12 mx-auto">We create spaces that are not only functional but also evoke a sense of warmth and inspiration, blending style and comfort to enhance everyday living.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-10">
+        <!-- Blog Card -->
+        <div class="border p-5 rounded-xl flex flex-col sm:flex-row lg:flex-col gap-5">
+          <img class="w-full sm:w-[40%] lg:w-full h-[250px] object-center" src="./assets/img1.png" alt="">
+
+          <div>
+            <div class="flex gap-4 items-center mb-4 ">
+              <small><img class="inline" src="./assets/icon/calendar-03.png" alt="">&nbsp; July14, 2024</small>
+              <small><img class="inline" src="./assets/icon/user-circle.png" alt="">&nbsp; By Admin</small>
+            </div>
+            <div class="space-y-2 mb-4">
+              <h2 class="font-bold text-2xl">How to choose the furniture right  of your home.</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern. </p>
+            </div>
+            <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
+          </div>
+
+        </div>
+        <div class="border p-5 rounded-xl flex flex-col sm:flex-row lg:flex-col gap-5">
+          <img class="w-full sm:w-[40%] lg:w-full h-[250px] object-center" src="./assets/img2.png" alt="">
+
+          <div>
+            <div class="flex gap-4 items-center mb-4 ">
+              <small><img class="inline" src="./assets/icon/calendar-03.png" alt="">&nbsp; July14, 2024</small>
+              <small><img class="inline" src="./assets/icon/user-circle.png" alt="">&nbsp; By Admin</small>
+            </div>
+            <div class="space-y-2 mb-4">
+              <h2 class="font-bold text-2xl">How to choose the furniture right  of your home.</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern. </p>
+            </div>
+            <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
+          </div>
+        </div>
+
+        <div class="border p-5 rounded-xl flex flex-col sm:flex-row lg:flex-col gap-5">
+          <img class="w-full sm:w-[40%] lg:w-full h-[250px] object-center" src="./assets/img3.png" alt="">
+
+          <div>
+            <div class="flex gap-4 items-center mb-4 ">
+              <small><img class="inline" src="./assets/icon/calendar-03.png" alt="">&nbsp; July14, 2024</small>
+              <small><img class="inline" src="./assets/icon/user-circle.png" alt="">&nbsp; By Admin</small>
+            </div>
+            <div class="space-y-2 mb-4">
+              <h2 class="font-bold text-2xl">How to choose the furniture right  of your home.</h2>
+              <p>The barn house captivates with its blend of rustic charm and modern. </p>
+            </div>
+            <a class="font-bold text-lg" href="#">View Details &nbsp; <i class="fa-solid fa-arrow-right bg-primary p-1 rounded-full -rotate-45"></i></a>
+          </div>
+        </div>
+
+      </div>
+
+     </section>
 
     <!-- FAQ's -->
     <section class="container mx-auto py-14 px-4 md:px-4">
